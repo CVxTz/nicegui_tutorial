@@ -1,0 +1,7 @@
+loguru==0.7.2
+requests~=2.31.0
+nicegui==1.4.21
+pydantic~=2.6.1
+ruff==0.3.5
+fastapi~=0.109.2
+uvicorn~=0.29.0

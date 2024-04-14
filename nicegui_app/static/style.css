@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* white background */
+    color: #333333; /* dark gray text */
+}
+
+/* Header styles */
+header {
+    background-color: #88ccff; /* light blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+.main-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: #0066cc; /* dark blue headings */
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+}
+
+.q-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc; /* dark blue button */
+    color: #ffffff; /* white text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #004080; /* slightly darker blue on hover */
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc; /* light gray border */
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc; /* light gray border */
+    border-radius: 5px;
+    background-color: #ffffff; /* white background */
+    color: #333333; /* dark gray text */
+}
+
+/* Footer styles */
+footer {
+    background-color: #88ccff; /* light blue footer */
+    padding: 20px;
+    text-align: center;
+}
