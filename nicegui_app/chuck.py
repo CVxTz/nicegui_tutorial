@@ -56,12 +56,12 @@ def chuck():
             ).classes("w-full")
             ui.space()
             ui.button(
-                "🔄 Re-Generate", on_click=lambda _: fact.update_fact(category.value)
+                "⟳ Re-Generate", on_click=lambda _: fact.update_fact(category.value)
             )
 
         with ui.column().classes(
             "col-span-10 w-full rounded-lg p-6 flex justify-center mx-auto max-w-screen-md"
         ):
             ui.label().bind_text_from(fact, "fact").classes(
-                " text-3xl text-gray-800 bg-white shadow-lg"
+                "text-3xl text-gray-800 bg-gray-100 rounded-lg p-6 shadow-lg"
             )

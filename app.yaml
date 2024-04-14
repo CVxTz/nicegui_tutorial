@@ -1,0 +1,24 @@
+runtime: custom
+env: flex
+
+service: default
+resources:
+  cpu: 0.5
+  memory_gb: 0.5
+
+liveness_check:
+  check_interval_sec: 60
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 1
+
+readiness_check:
+  check_interval_sec: 90
+  timeout_sec: 6
+  failure_threshold: 3
+  success_threshold: 1
+  app_start_timeout_sec: 1000
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
