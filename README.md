@@ -10,7 +10,7 @@ docker build . -t nicegui_app:0.0.1
 ## Run
 
 ```bash
-docker run -it -p 5000:5000 nicegui_app:0.0.1
+docker run -it -p 8080:8080 nicegui_app:0.0.1
 ```
 
 ## Deploy
