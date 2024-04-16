@@ -10,10 +10,8 @@ def add_head_html() -> (
 ):  # https://github.com/zauberzeug/nicegui/blob/main/website/header.py
     """Add the code from header.html and reference style.css."""
     ui.add_head_html(f"<style>{STYLE_CSS}</style>")
-    with ui.header().classes("flex justify-end"):
-        ui.link("ChuckNorrisFacts", target="/chuck").classes(
-            "hover:text-gray-300 text-white text-lg no-underline"
+    with ui.header().classes("flex"):
+        ui.label("Chuck Norris Random Facts").classes(
+            "text-white text-lg"
         )
-        ui.link("WallStreetBets", target="/wsb").classes(
-            "hover:text-gray-300 text-white text-lg no-underline"
-        )
+
